@@ -1,3 +1,8 @@
 import "./style.scss";
 
-console.log('start works')
+const a = async () => {
+  await Promise.resolve()
+  console.log('start works')
+}
+
+a()
